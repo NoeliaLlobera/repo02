@@ -38,4 +38,22 @@ Se dividen en los grupos:
 | get clone "url"            | Clonar un repositorio remoto a nuestro ordenador |
 ***
 
-### Crear repositorio local i vincular con repositorio remoto
+### Trabajar con el control de versiones    
+
+
+🔵 **Mandar cambios del working directory al staging area**          
+- git add nombreArchivo ➡ *mandar un archivo al staging area*  
+- git add . ➡ *mandar todos los archivos al staging area*  
+- git rm --cached archivo ➡ *quitar una archivo del staging area*
+
+🟢 **Mandar cambios del staging area al repositorio local**   
+- git commit -m "mensaje" ➡ *mandar un archivo al repositorio local*   
+
+⚠ Este paso no se puede deshacer de forma sencilla     
+⚠ El mensaje debe ser descriptivo  
+
+🟠 **Trabajar con el repositorio remoto**  
+- git push ➡ mandar cambios del repositorio local al repositorio remoto    
+- git pull ➡ recuperar cambios del repositorio remoto hacia el repositorio local   
+
+![Esquema](https://miro.medium.com/max/1204/1*zpvd5fjZAFGsVAEsvMGKxA.png) 
